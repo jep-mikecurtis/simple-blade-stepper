@@ -10,7 +10,7 @@ const showStep = target => {
 (_self => {
   Frostbite.stepper = {
     init() {
-      // bind this and create state
+      // init self and create state
       _self = this;
       _self.state = {
         step: 1,
